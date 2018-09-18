@@ -1,0 +1,42 @@
+landing.css
+header{
+	background-image: url(home_header_bg copy.jpg);
+	background-image: fixed;
+	height: 100vh;
+}
+.about article{
+	max-width: 800px;
+	font-size: 1.1rem;
+	line-height: 1.1;
+}
+.about h2{
+	margin-bottom: 0;
+}
+.masonry{
+	column-count: 3;
+	width: 100%;
+	margin: 4rem 0 2rem;
+	padding-bottom: 0;
+}
+.masonry img{
+	cursor: pointer;
+	-webkit-transition:all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	margin-bottom: 1rem;
+
+}
+.masonry img:hover {
+	opacity: .6;
+
+}
+#gallery{
+	padding-bottom: 0;
+}
+#contact{
+	padding-top: 1.5rem;
+}
+@media only screen and (max-width: 560px){
+	.masonry{
+		column-count: 2;
+	}
+}
